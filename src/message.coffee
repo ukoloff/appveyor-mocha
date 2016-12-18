@@ -1,7 +1,7 @@
 ###
 Message to AppVeyor
 ###
-exports = require '.'
+exports = require './'
 post = require './post'
 
 exports.message =
