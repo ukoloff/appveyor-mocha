@@ -7,7 +7,7 @@ http = require 'http'
 
 api = require './api'
 
-post = (data, path)->
+module.exports = (data, path)->
   return unless api
   uri = url.parse api
   data = JSON.stringify data
