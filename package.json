@@ -1,6 +1,6 @@
 {
   "name": "appveyor-mocha",
-  "version": "0.9.1",
+  "version": "1.0.0",
   "description": "Logging mocha test results to AppVeyor",
   "main": "lib",
   "repository": {
