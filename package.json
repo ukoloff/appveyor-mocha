@@ -29,5 +29,8 @@
   "homepage": "https://github.com/ukoloff/appveyor-mocha",
   "devDependencies": {
     "coffee-script": "^1.12.2"
+  },
+  "peerDependencies": {
+    "mocha": "*"
   }
 }
