@@ -7,6 +7,10 @@
     "type": "git",
     "url": "git+https://ukoloff@github.com/ukoloff/appveyor-mocha.git"
   },
+  "scripts": {
+    "prepublish": "coffee -o lib src",
+    "pretest": "coffee -o lib src"
+  },
   "keywords": [
     "appveyor",
     "mocha",
