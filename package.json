@@ -1,0 +1,29 @@
+{
+  "name": "appveyor-mocha",
+  "version": "0.9.0",
+  "description": "Logging mocha test results to AppVeyor",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://ukoloff@github.com/ukoloff/appveyor-mocha.git"
+  },
+  "keywords": [
+    "appveyor",
+    "mocha",
+    "test",
+    "log",
+    "message"
+  ],
+  "author": {
+    "name": "Stas Ukolov",
+    "email": "ukoloff@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ukoloff/appveyor-mocha/issues"
+  },
+  "homepage": "https://github.com/ukoloff/appveyor-mocha",
+  "devDependencies": {
+    "coffee-script": "^1.12.2"
+  }
+}
