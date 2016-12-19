@@ -5,12 +5,13 @@ exports = require './'
 post = require './post'
 
 exports.message =
-message = (msg)->
+message = (msg, details)->
   post
     category: 'info'
     message: msg
+    details: details
     '/api/build/messages'
 
-exports.log = (msg)->
+exports.log = (msg, details)->
   console.log msg
-  message msg
+  message msg, details
