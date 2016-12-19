@@ -15,5 +15,5 @@ module.exports = (data, path)->
   uri.path = path
   uri.headers =
     'Content-Type': 'application/json'
-  http.request uri
+  http.request uri, (->)
   .end data
