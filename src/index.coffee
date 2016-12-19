@@ -1,3 +1,2 @@
-api = require './api'
-require './patch' if api
+require './patch' if require './api'
 require './message'
